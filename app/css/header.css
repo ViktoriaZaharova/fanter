@@ -1,0 +1,93 @@
+/*==========  section header  ==========*/
+header {
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 33px 0;
+  font-size: 18px; }
+  header .container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 56px;
+  width: 100%; }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto 0 100px; }
+  .menu li {
+    margin: 0 15px 0 0; }
+    .menu li:last-child {
+      margin: 0; }
+    .menu li a {
+      color: #fff; }
+      .menu li a:hover {
+        color: #E93095; }
+    .menu li .active {
+      font-weight: 600;
+      color: #E93095; }
+
+.list-language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 120px 0 0; }
+  .list-language li {
+    margin: 0 23px 0 0; }
+    .list-language li:last-child {
+      margin: 0; }
+    .list-language li a {
+      color: #fff; }
+      .list-language li a:hover {
+        color: #E93095; }
+    .list-language li .active {
+      font-weight: 800;
+      color: #E93095; }
+
+.header-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .header-links .btn {
+    padding: 0 20px;
+    height: 44px;
+    margin: 0 0 0 20px;
+    font-size: 18px;
+    line-height: 22px; }
+
+.links {
+  color: #fff; }
+  .links:hover {
+    color: #E93095; }
+
+/*==========  section header end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/

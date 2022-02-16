@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Fanter</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <div class="mobile-menu">
+    <div class="btn-close"><svg class="svg-icon"><use xlink:href="img/sprite.svg#close"></use></svg></div>
+
+    <ul class="list-language my-ul">
+      <li><a href="#" class="active">Ру</a></li>
+      <li><a href="#">En</a></li>
+      <li><a href="#">Es</a></li>
+    </ul>
+
+    <ul class="menu my-ul">
+      <li><a href="#slide1" class="hashing">Вертикаль</a></li>
+      <li><a href="#slide2" class="hashing">Награда</a></li>
+      <li><a href="#slide3" class="hashing">Условия</a></li>
+      <li><a href="#slide4" class="hashing">Диалог</a></li>
+      <li><a href="#slide5" class="hashing">Обновление</a></li>
+      <li><a href="#slide6" class="hashing">Материалы</a></li>
+    </ul>
+
+    <ul class="list-social my-ul">
+      <li><a href="#">
+        <svg class="svg-icon">
+          <use xlink:href="img/sprite.svg#fb"></use>
+        </svg>
+      </a></li>
+      <li><a href="#">
+        <svg class="svg-icon">
+          <use xlink:href="img/sprite.svg#whatsapp"></use>
+        </svg>
+      </a></li>
+      <li><a href="#">
+        <svg class="svg-icon">
+          <use xlink:href="img/sprite.svg#twitter"></use>
+        </svg>
+      </a></li>
+      <li><a href="#">
+        <svg class="svg-icon">
+          <use xlink:href="img/sprite.svg#instagram"></use>
+        </svg>
+      </a></li>
+    </ul>
+
+    <a href="#callbackModal" class="btn btn-accent open_modal">
+      <span class="btn-text">Связаться с нами</span>
+      <span class="btn-icon"><svg class="svg-icon"><use
+          xlink:href="img/sprite.svg#arrow-right"></use></svg></span>
+    </a>
+
+
+  </div>
+
+  <div class="pagination"></div>
+
+  <!--### HEADER ###-->
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+      <ul class="menu my-ul">
+        <li><a href="#slide1" class="hashing">Вертикаль</a></li>
+        <li><a href="#slide2" class="hashing">Награда</a></li>
+        <li><a href="#slide3" class="hashing">Условия</a></li>
+        <li><a href="#slide4" class="hashing">Диалог</a></li>
+        <li><a href="#slide5" class="hashing">Обновление</a></li>
+        <li><a href="#slide6" class="hashing">Материалы</a></li>
+      </ul>
+
+      <ul class="list-language my-ul">
+        <li><a href="#" class="active">Ру</a></li>
+        <li><a href="#">En</a></li>
+        <li><a href="#">Es</a></li>
+      </ul>
+
+      <div class="header-links">
+        <a href="#" class="links">Войти</a>
+        <a href="#" class="btn btn-accent">Регистрация</a>
+      </div>
+
+      <div class="btn-burger"><svg class="svg-icon"><use xlink:href="img/sprite.svg#burger"></use></svg></div>
+    </div>
+  </header>
+  <!--### HEADER end ###-->
+
+  <div class="social">
+    <div class="container">
+      <ul class="list-social my-ul">
+        <li><a href="#">
+          <svg class="svg-icon">
+            <use xlink:href="img/sprite.svg#fb"></use>
+          </svg>
+        </a></li>
+        <li><a href="#">
+          <svg class="svg-icon">
+            <use xlink:href="img/sprite.svg#whatsapp"></use>
+          </svg>
+        </a></li>
+        <li><a href="#">
+          <svg class="svg-icon">
+            <use xlink:href="img/sprite.svg#twitter"></use>
+          </svg>
+        </a></li>
+        <li><a href="#">
+          <svg class="svg-icon">
+            <use xlink:href="img/sprite.svg#instagram"></use>
+          </svg>
+        </a></li>
+      </ul>
+
+    </div>
+  </div>
+
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide scroll-section1" data-hash="slide1">
+        <div class="circle circle1"></div>
+        <div class="circle circle2"></div>
+        <div class="circle circle3"></div>
+
+        <div class="container">
+          <div class="scroll-section-content">
+            <div class="slider-title">
+              <span class="color-accent">Fanter</span> - сервис
+              подписки на
+              контент
+            </div>
+
+            <div class="box-text">
+              <p>Выводы денег в любой момент
+                на твой счет или карту любого
+                банка, и другие приятные бонусы</p>
+            </div>
+
+            <a href="#" class="btn btn-accent">
+              <span class="btn-text">Начать</span>
+              <span class="btn-icon"><svg class="svg-icon"><use
+                  xlink:href="img/sprite.svg#arrow-right"></use></svg></span>
+            </a>
+
+            <a href="#slide2" class="links-scroll hashing">
+              <span class="links-scroll__icon"><img src="img/mouse.svg" alt=""></span>
+              <span class="links-scroll__text">Листай ниже</span>
+            </a>
+          </div>
+
+          <div class="scroll-section-img">
+            <img src="img/img1.png" alt="">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-slide scroll-section2" data-hash="slide2">
+        <div class="circle circle4"></div>
+        <div class="circle circle5"></div>
+
+        <div class="container">
+          <div class="scroll-section-content">
+            <div class="slider-title">
+              <span class="color-accent">Достойное</span>
+              вознаграждение
+              для аффилиатов
+            </div>
+
+            <div class="box-text">
+              <p>Любое платное действие от пользователя
+                пришедшего по этому трафу начисляется
+                50% от суммы транзакции</p>
+            </div>
+
+            <a href="#" class="btn btn-accent">
+              <span class="btn-text">Попробовать</span>
+              <span class="btn-icon"><svg class="svg-icon"><use
+                  xlink:href="img/sprite.svg#arrow-right"></use></svg></span>
+            </a>
+
+          </div>
+
+          <div class="scroll-section-img">
+            <img src="img/img2.png" alt="">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-slide scroll-section3" data-hash="slide3">
+        <div class="circle circle6"></div>
+        <div class="circle circle5"></div>
+        <div class="container">
+          <div class="scroll-section-content">
+            <div class="slider-title">
+              <span class="color-accent">Специальные
+                условия</span> для
+              уникальных
+              пользователей
+            </div>
+
+            <div class="box-text">
+              <p>Уникальный пользователь может
+                сделать более одного платного
+                действия</p>
+            </div>
+
+            <a href="#" class="btn btn-accent">
+              <span class="btn-text">Стать пратнёром</span>
+              <span class="btn-icon"><svg class="svg-icon"><use
+                  xlink:href="img/sprite.svg#arrow-right"></use></svg></span>
+            </a>
+          </div>
+
+          <div class="scroll-section-img">
+            <img src="img/img3.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide scroll-section4" data-hash="slide4">
+        <div class="circle circle7"></div>
+        <div class="circle circle8"></div>
+        <div class="container">
+          <div class="scroll-section-content">
+            <div class="slider-title">
+              Диалог
+              с пользователями
+              <span class="color-accent">автоматизирован</span>
+            </div>
+
+            <div class="box-text">
+              <p>Диалог с пользователями аффилиату
+                вести не нужно, это будут делать
+                специально обученные люди</p>
+            </div>
+
+            <a href="#" class="btn btn-accent">
+              <span class="btn-text">Попробовать</span>
+              <span class="btn-icon"><svg class="svg-icon"><use
+                  xlink:href="img/sprite.svg#arrow-right"></use></svg></span>
+            </a>
+          </div>
+
+          <div class="scroll-section-img">
+            <img src="img/img4.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide scroll-section5" data-hash="slide5">
+        <div class="circle circle9"></div>
+        <div class="circle circle10"></div>
+        <div class="container">
+          <div class="scroll-section-content">
+            <div class="slider-title">
+              <span class="color-accent">Постоянное</span>
+обновление
+контента
+            </div>
+
+            <div class="box-text">
+              <p>Контент постоянно пополняется:
+                по возвращении через определённое
+                время, пользователь может получить
+                новый, свежий контент</p>
+            </div>
+
+            <a href="#" class="btn btn-accent">
+              <span class="btn-text">Стать пратнёром</span>
+              <span class="btn-icon"><svg class="svg-icon"><use
+                  xlink:href="img/sprite.svg#arrow-right"></use></svg></span>
+            </a>
+          </div>
+
+          <div class="scroll-section-img">
+            <img src="img/img5.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide scroll-section6" data-hash="slide6">
+        <div class="circle circle11"></div>
+        <div class="circle circle5"></div>
+        <div class="container">
+          <div class="scroll-section-content">
+            <div class="slider-title">
+              <span class="color-accent">Готовые</span> <br>
+проклы
+и креативы
+            </div>
+
+            <div class="box-text">
+              <p>Есть готовые проклы и креативы
+                на которые можно вести траф,
+                можем их предоставить</p>
+            </div>
+
+            <a href="#" class="btn btn-accent">
+              <span class="btn-text">Начать</span>
+              <span class="btn-icon"><svg class="svg-icon"><use
+                  xlink:href="img/sprite.svg#arrow-right"></use></svg></span>
+            </a>
+          </div>
+
+          <div class="scroll-section-img">
+            <img src="img/img6.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
+
+
+<div class="modal__div" id="callbackModal">
+  <div class="modal__wrapper">
+    <div class="modal__close"><svg class="svg-icon"><use xlink:href="img/sprite.svg#close"></use></svg></div>
+    <h3>Оставьте контактные данные
+      и мы оперативно свяжемся с вами</h3>
+
+    <form method="post" class="form">
+
+      <label><input type="text" name="name" placeholder="Имя"></label>
+
+      <label><input type="text" name="mail" placeholder="E-mail" required></label>
+
+
+      <label class="checkbox">
+        <input type="checkbox" class="inp-check" name="checkbox" checked>
+        <span class="checkbox-custom"></span>
+        <span class="checkbox-text">Согласие на обработку <a href="#" class="d-inline color-blue">персональных данных</a></span>
+      </label>
+
+      <button type="submit" class="btn btn-accent">
+        <span class="btn-text">Отправить</span>
+        <span class="btn-icon"><svg class="svg-icon"><use
+            xlink:href="img/sprite.svg#arrow-right"></use></svg></span>
+      </button>
+    </form>
+  </div>
+</div>
+
+<div class="modal__div" id="thanksModal">
+  <div class="modal__wrapper">
+    <div class="modal__close"><svg class="svg-icon"><use xlink:href="img/sprite.svg#close"></use></svg></div>
+    <h3>Ваша заявка отправлена!
+      Наш менеджер свяжется с вами</h3>
+
+    <div class="modal-icon"><img src="img/mail.svg" alt=""></div>
+  </div>
+</div>
+<!-- Пoдлoжкa -->
+<div class="overlay"></div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
