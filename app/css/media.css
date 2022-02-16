@@ -118,97 +118,24 @@
       background-size: cover; }
   .swiper .box-text {
     margin: 10px 0 20px; }
-  .circle3 {
-    width: 313px;
-    height: 313px;
-    -webkit-filter: blur(143.652px);
-            filter: blur(143.652px);
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
-    left: -89px;
-    top: -205px; }
-  .circle {
-    width: 313px;
-    height: 313px; }
-  .circle1 {
-    -webkit-filter: blur(143.652px);
-            filter: blur(143.652px);
-    bottom: 41px;
-    right: -156px; }
-  .circle2 {
-    -webkit-filter: blur(143.652px);
-            filter: blur(143.652px);
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
-    left: -253px;
-    bottom: -97px; }
-  .circle5 {
-    -webkit-filter: blur(143.652px);
-            filter: blur(143.652px);
-    right: -190px;
-    bottom: -134px;
-    top: auto; }
-  .circle4 {
-    top: -108px;
-    left: -163px;
-    -webkit-filter: blur(143.652px);
-            filter: blur(143.652px);
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg); }
-  .circle6 {
-    left: 50%;
-    -webkit-transform: translate(-50%, 0) rotate(-135deg);
-            transform: translate(-50%, 0) rotate(-135deg);
-    bottom: -42px;
-    top: auto;
-    -webkit-filter: blur(162.993px);
-            filter: blur(162.993px); }
-  .scroll-section3 .circle5 {
-    top: -254px;
-    right: -198px;
-    bottom: auto;
-    -webkit-transform: rotate(-120deg);
-            transform: rotate(-120deg);
-    -webkit-filter: blur(143.652px);
-            filter: blur(143.652px); }
-  .circle7 {
-    -webkit-filter: blur(143.652px);
-            filter: blur(143.652px);
-    -webkit-transform: rotate(-120deg);
-            transform: rotate(-120deg);
-    left: -155px;
-    top: -251px; }
-  .circle8 {
-    -webkit-filter: blur(143.652px);
-            filter: blur(143.652px);
-    -webkit-transform: rotate(-120deg);
-            transform: rotate(-120deg);
-    right: -198px;
-    bottom: -207px; }
-  .circle10 {
-    top: -218px;
-    right: -202px;
-    -webkit-filter: blur(143.652px);
-            filter: blur(143.652px);
-    -webkit-transform: rotate(-120deg);
-            transform: rotate(-120deg); }
-  .circle9 {
-    left: -180px;
-    bottom: -137px;
-    -webkit-filter: blur(143.652px);
-            filter: blur(143.652px);
-    -webkit-transform: rotate(-120deg);
-            transform: rotate(-120deg); }
-  .circle11 {
-    -webkit-filter: blur(143.652px);
-            filter: blur(143.652px);
-    -webkit-transform: rotate(-120deg);
-            transform: rotate(-120deg);
-    top: -87px;
-    left: -180px; }
-  .scroll-section6 .circle5 {
-    bottom: -23px;
-    right: -46px; }
+  .scroll-section1 {
+    background: url("../img/bg1-mob.svg") no-repeat center;
+      background-size: cover; }
+  .scroll-section2 {
+    background: url("../img/bg2-mob.svg") no-repeat center;
+      background-size: cover; }
+  .scroll-section3 {
+    background: url("../img/bg3-mob.svg") no-repeat center;
+      background-size: cover; }
+  .scroll-section4 {
+    background: url("../img/bg4-mob.svg") no-repeat center;
+      background-size: cover; }
+  .scroll-section5 {
+    background: url("../img/bg5-mob.svg") no-repeat center;
+      background-size: cover; }
+  .scroll-section6 {
+    background: url("../img/bg6-mob.svg") no-repeat center;
+      background-size: cover; }
   .scroll-section-img, .scroll-section2 .scroll-section-img, .scroll-section4 .scroll-section-img, .scroll-section6 .scroll-section-img, .scroll-section3 .scroll-section-img, .scroll-section5 .scroll-section-img {
     max-width: 300px; } }
 
