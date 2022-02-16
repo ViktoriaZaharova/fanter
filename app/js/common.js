@@ -1,7 +1,8 @@
 const swiper = new Swiper('.swiper', {
     direction: 'vertical',
     loop: false,
-
+    slidesPerView: 1,
+    slidesPerGroup: 1,
     pagination: {
         el: '.pagination',
         type: 'bullets',
