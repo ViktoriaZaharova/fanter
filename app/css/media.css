@@ -43,7 +43,7 @@
     width: 40px;
     height: 40px; }
   .scroll-section-img, .scroll-section2 .scroll-section-img, .scroll-section4 .scroll-section-img, .scroll-section6 .scroll-section-img, .scroll-section3 .scroll-section-img, .scroll-section5 .scroll-section-img {
-    max-width: 550px;
+    max-width: 500px;
     top: 50%;
     -webkit-transform: translate(0, -50%);
             transform: translate(0, -50%);
